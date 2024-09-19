@@ -1,0 +1,44 @@
+/* src/Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #76262E;
+  color: white;
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 35px;
+  font-family: 'Yeseva One';
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: space-between; 
+  flex: 1; 
+  margin-left: 20px; 
+}
+
+.nav-links li {
+  flex-grow: 1; 
+  display: flex;
+  justify-content: center;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 19px;
+}
+
+.nav-links a:hover {
+  border: 1px solid #f1f1f1;
+}
